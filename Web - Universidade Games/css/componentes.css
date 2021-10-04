@@ -1,0 +1,342 @@
+/*------------------------------------/*
+               MENU
+/*------------------------------------*/
+
+.menu {
+    margin: 0;
+
+    font-size: 1.4rem;
+
+    list-style: none;
+}
+
+.menu__item > a {
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+
+    font-size: 1.6rem;
+
+    color: #fff;
+}
+
+#letreiro {
+    padding-left: 1%;
+}
+
+@media(max-width: 1249px) { 
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    
+        display: none;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-top: 5px;
+        border-right: 1px solid #42173C;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        background-color: #42173C;
+        border: 2px solid white;
+        border-top: none;
+    }
+
+    .menu--exibindo {
+        display: block;
+    }
+    
+    .menu__item {
+        display: block;
+        line-height: 3;
+        border-bottom: 1px solid white;
+    }
+}
+
+@media(min-width: 1250px) {
+    
+    .menu__item {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    .menu__item:last-of-type {
+        padding-right: 0;
+    }
+}   
+
+@media(max-width: 700px) {
+    .menu {
+        width: 150px;
+        height: 200px;
+        font-size: 1.3rem;
+    }
+}
+
+.navegacao__menu {
+    float: right;
+}
+
+    /*------------------------------------/*
+                BOTÃO-CHAVEADOR-MENU
+    /*------------------------------------*/  
+
+    .botao-chaveador {
+        width: 30px;
+        height: 30px;
+        border: 0;
+        background: none;
+        background-image: url("../img/bars.png");
+        background-size: 30px 30px;
+        outline: none;
+    }
+
+    @media(min-width: 1250px) {
+        .botao-chaveador {
+            display: none;
+        }
+    }
+
+
+
+    /*------------------------------------/*
+                FlexBox index
+    /*------------------------------------*/
+    .flex
+    {
+        max-width: 1080px;
+        margin: auto;
+        justify-content: space-around;
+        align-content: center;  
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    .flex > div
+    {
+        margin-bottom: 10px;
+    }
+
+
+
+    #body-flex
+    {
+        border: 3px solid white;
+    }
+
+
+    .box-descricao
+    {
+        border: 3px solid black;
+        background-color: white;
+        max-width: 345px;                
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+                
+    }
+    .box-descricao > a
+    {
+        color: rgba(0, 0, 0, 0.796);
+        margin: 15px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+
+        line-height: 2.5em;
+        font-weight: bolder;
+        font-size: 20px;
+        text-decoration: none;
+        text-shadow: 1px 1px #b5b5b5;
+    }
+
+    .box-descricao > p
+    {
+        color: black;
+        margin-top: 5px;
+        text-align: justify;
+        font-size: 0.9em;
+        padding: 15px;
+        padding-top: 0;
+    }
+
+    /*------------------------------------/*
+                fast login section
+    /*------------------------------------*/
+
+    #fast-login-section
+    {
+        background-color: #958bac;
+        border: none;
+        border-bottom: 3px solid white;
+    }
+
+
+    #fast-login-div-componentes
+    {
+        
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: auto;
+        padding: 7px;
+        border-bottom-left-radius: 30px;
+        background-color: #3e1648;
+        width: 700px;
+        border-right: 0;
+        color: white;
+        font-size: 0.9em;
+
+    }
+
+    div#fast-login-div-componentes > table td 
+    {
+        padding-right: 15px;
+    }
+
+
+    @media(max-width: 700px) {
+        #fast-login-div-componentes {
+            padding: 3px;
+            width: 300px;
+            font-size: 0.4em;
+        }   
+        
+        div#fast-login-div-componentes > table td {
+            padding-right: 7px;
+        }
+      }
+    
+
+/*------------------------------------/*
+                GAME
+/*------------------------------------*/ 
+
+
+.game {
+    float: left;
+
+    padding: 0 5% 1% 0;
+    
+    font-size: 1.4rem; 
+}
+
+.game .game__imagem {
+    margin: 0px;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 0px;
+
+    color: #fff;
+    
+    text-align: center;
+    line-height: 2.5;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.game .game__preco {
+    margin: 20px 0px;
+
+    text-align: center;
+    font-size: 2em;
+}
+
+.game .game__caracteristicas {
+    padding: 0px;
+    margin: 20px 0;
+
+    font-size: 1em;
+
+    list-style: none;
+}
+
+.game .game__caracteristicas > li {
+    text-align: center;
+}
+
+.game .game__rodape {
+    font-size: 1em;
+    text-align: center;
+}
+
+.game__titulo {
+    color: #e193e8;
+    text-shadow: 2px 2px rgb(30, 30, 30);
+
+    font-size: 2em;
+    font-weight: bolder;
+
+    padding-top: 10px;
+
+    margin: 20px 0;
+
+}
+
+.description .description--game {
+    padding: 10px 0 20px 0;
+    float: left;
+    
+}
+
+.game .game__wallpaper {
+    width: 700px;
+    height: 400px;
+}
+
+@media(max-width: 992px) {
+    .game .game__wallpaper {   
+        max-width: 450px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+    }
+
+    .game {
+        padding: 10px;
+        text-align: center;
+        padding: 0 5% 2% 0;
+        float: none;
+    }
+}
+
+
+/*------------------------------------/*
+               BOTÃO
+/*------------------------------------*/      
+
+.botao {
+    display: inline-block;
+    padding: 1.5em 5.0em;
+    
+
+    background-color: #bbb;
+    color: #fff;
+    border: none;
+
+    line-height: normal;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.botao:hover, .botao:focus {
+    background-color: #aaa;
+    color: #fff;
+    
+    text-decoration: none;
+}
+
+.botao--assinar {
+    background-color: #431847;
+    border-radius: 5px;
+}
+
+.botao--assinar:hover, .botao--assinar:focus {
+    background-color: #42173C;
+} 

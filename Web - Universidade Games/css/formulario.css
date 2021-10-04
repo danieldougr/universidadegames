@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(42, 44, 71);
+    text-align: justify;
+}
+
+#titulo, #subtitulo {
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+.infoPessoal, .infoEndereco, .infoCobranca {
+    margin-right: 0;
+    text-align: center;
+    border: 0;
+}
+
+.infoCobranca {
+    margin-top: 2em;
+}
+
+#Sexo, #metodoDeCompra {
+    color: black;
+}
+
+#nome, #sobrenome, #email, #endereço, #bairro, #cidade, #estado, #cep {
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 0.1em;
+}
+
+input {
+    border-style: none;
+    width: 15em;
+    display: inline-block;
+    background-color: aliceblue;
+    color: black;
+}
+
+.voltar {
+    color:white;
+    background-color:#431847;
+    border: 0.1;
+    border-color:white;
+    border-style:groove;
+    position:relative;
+    margin-top: 4%;
+    margin-left: 44%;
+    margin-right: 4%;
+}
+
+@media(max-width: 700px) {
+    .voltar {
+        margin-left: 35%;
+    }
+}
+
+.voltar:hover {
+    background-color: blueviolet;
+}
+
+.botao__formulario {
+    color:white;
+    background-color:#431847;
+    position:relative;
+    border: 0.1;
+    border-color:white;
+    border-style:groove;
+}
+
+.botao__formulario:hover {
+    background-color: blueviolet;
+}
+
+.formulario {
+    padding-bottom: 20px;
+}

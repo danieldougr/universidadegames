@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(42, 44, 71);
+    text-align: justify;
+    color: aliceblue;
+}
+
+#attitle {
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+#atsubtitle {
+    margin-bottom: 1em;
+}
+
+#atdescription {
+    margin-bottom: 2em;
+}
+
+#atquestions {
+    text-align: center;
+}
+
+.atsummary {
+    font-size: 100%;
+    color: aliceblue;
+}
+
+.ataccordionbutton {
+    font-size: 80%;
+    font-style: inherit;
+    background-color: rgb(42, 44, 71);
+    color: aliceblue;    
+}
+
+.ataccordionbutton:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }
+
+
+.ataccordionitem {
+    color: aliceblue;
+    border-color: transparent;
+    background-color: rgb(42, 44, 71);
+}
+
+#botaoFormulario {
+    color: aliceblue;
+}
+
+.label-Formulario {
+    font-size: 150%;
+}
+
+#copiaFormulario, #botaoFormulario {
+    font-size: 110%;
+}
+
+#botaoFormulario {
+    margin: 1em;
+}
+
+input[type='checkbox']{
+    filter: hue-rotate(50deg);
+}
+
+#atlastbox {
+    margin-top: 4em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.atcontainerlastbox {
+    width: 33.333%;
+    float: left;
+}
+
+#atlastbutton {
+    font-size: 150%;
+    color: aliceblue;
+}
